@@ -1,0 +1,70 @@
+.portpolio{
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+}
+
+.portpolio-menu{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portpolio-menu-item{
+    width:50%;
+    height:200px;
+}
+
+.portpolio-menu-container{
+    width:100%;
+    height: 100%;
+    text-align:left;
+    padding-top: 120px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    transition: scale 0.2s;
+}
+
+.portpolio-menu-item:hover  .portpolio-menu-container{
+    scale:0.8;
+    text-align: center;
+
+}
+
+.p-bg1{
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-bg2{
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-bg3{
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-bg4{
+    background-image: url(../img/img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:650px) {
+    .portpolio-menu-item{
+        width:100%;
+    }
+
+    .portpolio-menu-item{
+        text-align: center;
+    }
+}

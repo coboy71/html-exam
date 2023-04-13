@@ -1,0 +1,26 @@
+.offer{
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgb(80, 100, 187);
+}
+
+.offer-menu{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom:30px;
+}
+
+.offer-menu-item{
+    padding:20px;
+    width:25%;
+    box-sizing: border-box;
+}
+
+@media (max-width:650px) {
+    .offer-menu-item{
+        padding:20px;
+        width:50%;
+    }
+}
